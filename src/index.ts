@@ -24,6 +24,9 @@ export function useStepper<const Steps extends readonly string[]>(
   options: StepperOptions<Steps>,
 ): StepperState<Steps> {
   const { steps, initial, linear = false, onComplete } = options;
+  if (steps.length === 0) {
+    throw new Error("useStepper: steps array must not be empty");
+  }
   const initialIndex = initial ? steps.indexOf(initial) : 0;
   const [index, setIndex] = useState(initialIndex === -1 ? 0 : initialIndex);
   const [furthest, setFurthest] = useState(
