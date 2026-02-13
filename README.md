@@ -7,9 +7,7 @@
 
 > Tiny React hook for multi-step forms and wizards. Headless, type-safe, zero dependencies.
 
-<p align="center">
-  <img src="assets/demo.gif" alt="use-stepper demo" width="600" />
-</p>
+![Demo](assets/demo.gif)
 
 ## Why
 
