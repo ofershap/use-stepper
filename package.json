@@ -1,6 +1,6 @@
 {
-  "name": "use-stepper",
-  "version": "0.0.0-development",
+  "name": "use-stepper-react",
+  "version": "1.0.0",
   "description": "Tiny React hook for multi-step forms and wizards with full TypeScript support",
   "type": "module",
   "exports": {
