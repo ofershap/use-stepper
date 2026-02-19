@@ -1,4 +1,4 @@
-# use-stepper
+# use-stepper — Headless React Hook for Multi-Step Wizards
 
 [![npm version](https://img.shields.io/npm/v/use-stepper.svg)](https://www.npmjs.com/package/use-stepper)
 [![npm downloads](https://img.shields.io/npm/dm/use-stepper.svg)](https://www.npmjs.com/package/use-stepper)
@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bundle size](https://img.shields.io/bundlephobia/minzip/use-stepper)](https://bundlephobia.com/package/use-stepper)
 
-A headless React hook that gives you type-safe multi-step navigation — no wrapper components, no providers, just a hook.
+A headless React hook for type-safe multi-step wizard navigation — no wrapper components, no providers, just a hook. Zero dependencies.
 
 ```tsx
 const { current, next, back, progress } = useStepper({
@@ -18,7 +18,7 @@ const { current, next, back, progress } = useStepper({
 
 > Tiny, headless, zero dependencies. Works with any UI library.
 
-![Demo](assets/demo.gif)
+![use-stepper demo — multi-step form wizard with progress bar and type-safe navigation](assets/demo.gif)
 
 ## Why
 
